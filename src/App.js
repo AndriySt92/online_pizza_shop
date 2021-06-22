@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { Switch, Route } from 'react-router-dom'
+import './scss/app.scss'
+import loader from './assets/img/loader.gif'
+import {Home} from './Pages/index'
+import {Header} from './components/index'
+
+const Cart = React.lazy(() => import('./Pages/Cart'))
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="wrapper">
+        <Header />
+        <div className="content">
+         <Switch>
+            <Route exact path="/" component={Home}  />
+            <React.Suspense fallback={<img src={loader} />}>
+              <Route path="/cart" component={Cart} />
+            </React.Suspense>
+          </Switch>
+        </div>
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
