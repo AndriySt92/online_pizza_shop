@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/AndriySt92/test_git.git/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/AndriySt92/test_git.git/static/js/main.77a0bfda.chunk.js",
-    "main.js.map": "/AndriySt92/test_git.git/static/js/main.77a0bfda.chunk.js.map",
-    "runtime-main.js": "/AndriySt92/test_git.git/static/js/runtime-main.e8d079fc.js",
-    "runtime-main.js.map": "/AndriySt92/test_git.git/static/js/runtime-main.e8d079fc.js.map",
-    "static/js/2.89bef6dc.chunk.js": "/AndriySt92/test_git.git/static/js/2.89bef6dc.chunk.js",
-    "static/js/2.89bef6dc.chunk.js.map": "/AndriySt92/test_git.git/static/js/2.89bef6dc.chunk.js.map",
-    "static/js/3.b3bd5505.chunk.js": "/AndriySt92/test_git.git/static/js/3.b3bd5505.chunk.js",
-    "static/js/3.b3bd5505.chunk.js.map": "/AndriySt92/test_git.git/static/js/3.b3bd5505.chunk.js.map",
-    "index.html": "/AndriySt92/test_git.git/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/AndriySt92/test_git.git/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.89bef6dc.chunk.js.LICENSE.txt": "/AndriySt92/test_git.git/static/js/2.89bef6dc.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/AndriySt92/test_git.git/static/media/logo.6ce24c58.svg"
+    "main.css": "/test_git/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/test_git/static/js/main.77a0bfda.chunk.js",
+    "main.js.map": "/test_git/static/js/main.77a0bfda.chunk.js.map",
+    "runtime-main.js": "/test_git/static/js/runtime-main.42750ac8.js",
+    "runtime-main.js.map": "/test_git/static/js/runtime-main.42750ac8.js.map",
+    "static/js/2.89bef6dc.chunk.js": "/test_git/static/js/2.89bef6dc.chunk.js",
+    "static/js/2.89bef6dc.chunk.js.map": "/test_git/static/js/2.89bef6dc.chunk.js.map",
+    "static/js/3.b3bd5505.chunk.js": "/test_git/static/js/3.b3bd5505.chunk.js",
+    "static/js/3.b3bd5505.chunk.js.map": "/test_git/static/js/3.b3bd5505.chunk.js.map",
+    "index.html": "/test_git/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/test_git/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.89bef6dc.chunk.js.LICENSE.txt": "/test_git/static/js/2.89bef6dc.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/test_git/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e8d079fc.js",
+    "static/js/runtime-main.42750ac8.js",
     "static/js/2.89bef6dc.chunk.js",
     "static/css/main.9d5b29c0.chunk.css",
     "static/js/main.77a0bfda.chunk.js"
